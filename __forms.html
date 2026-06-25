@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Netlify form registration</title>
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <!-- Dedicated, tiny file so Netlify's form-detection bot reliably finds the
+       RSVP form (the live form lives inside the bundled guests.html and
+       submits here via AJAX). -->
+  <form name="rsvp" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="text" name="first">
+    <input type="text" name="last">
+    <input type="email" name="email">
+    <input type="text" name="company">
+    <input type="text" name="jobtitle">
+    <input type="text" name="website">
+    <input type="tel" name="phone">
+    <input type="text" name="attendees">
+    <input type="text" name="diet">
+    <input type="text" name="diet_other">
+    <input type="text" name="bot-field">
+  </form>
+</body>
+</html>
