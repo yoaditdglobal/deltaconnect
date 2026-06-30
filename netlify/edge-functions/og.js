@@ -4,7 +4,7 @@
 // to the full static page untouched.
 
 const BASE = "https://deltaconnect.netlify.app";
-const IMG = BASE + "/og-image.jpg";
+const IMG = BASE + "/og-image.jpg?v=2";
 const TITLE = "Delta Connect Summit — 8 July 2026, Uncommon Rooftop, London";
 const DESC = "Where brands scale and founders connect — an evening with the Delta Connect community.";
 
